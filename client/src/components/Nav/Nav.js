@@ -26,12 +26,9 @@ export default function Nav() {
           </button>
         </div>
         <div className="nav-delivery-info-container">
-          <p>Hello, Laith</p>
-          <h2>Account & Lists</h2>
-        </div>
-        <div className="nav-delivery-info-container">
-          <p>Returns</p>
-          <h2>& Orders</h2>
+          <button>
+            <Link to="/form">Add New Animal</Link>
+          </button>
         </div>
         <div className="nav-cart-container">
           <img src={cart} />

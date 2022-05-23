@@ -9,7 +9,7 @@ function CardDisplay({ animals }) {
     <div className="card-display">
       <Container className="card-display-container">
         {animals.map((animal) => {
-          return <Card animal={animal} />
+          return <Card key={animal.title} animal={animal} />
         })}
       </Container>
     </div>

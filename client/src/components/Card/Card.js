@@ -6,9 +6,13 @@ import animal from '../../assets/images'
 import { Link } from 'react-router-dom'
 
 function Card(props) {
+  const imageSrc = props.animal.image.includes('http')
+    ? props.animal.image
+    : animal[props.animal.image]
+
   return (
     <Link to={`/product/${props.animal.slug}`} className="Card">
-      <img className="main-img" src={animal[props.animal.image]} />
+      <img className="main-img" src={imageSrc} />
       <h4>{props.animal.title}</h4>
       <div className="card-start">
         <img src={star} />

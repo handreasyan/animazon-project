@@ -30,6 +30,13 @@
   font-weight: 700;
 }
 
+.nav-delivery-info-container button {
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: rgb(254, 189, 105);
+}
+
 .nav-delivery-info-container h2 {
   color: white;
   font-size: 1rem;

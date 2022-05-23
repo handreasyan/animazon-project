@@ -2,5 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Lato";
+  font-family: 'Lato';
+}
+
+.submit-data-btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(254, 189, 105);
+  margin-left: 40px;
+  font-weight: bold;
 }
